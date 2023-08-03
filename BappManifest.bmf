@@ -1,0 +1,13 @@
+Uuid: e90fb3784290461cbfdda82f16c2224e
+ExtensionType: 1
+Name: Copy to BCheck
+RepoName: copy-to-bcheck
+ScreenVersion: 1.1
+SerialVersion: 1
+MinPlatformVersion: 8
+ProOnly: True
+Author: Matheus Vrech
+ShortDescription: Converts requests into BCheck scripts.
+EntryPoint: copy-to-bcheck/target/CopyToBcheck-1.0-SNAPSHOT.jar
+BuildCommand: cd copy-to-bcheck/ && mvn package
+SupportedProducts: Pro
